@@ -3,7 +3,7 @@
 ## 1. Nhóm lệnh lưu 
 * **git add .** : Đưa các file có sự thay đổi vào hàng chờ, chưa đẩy .
 * **git commit -m "văn_ bản"** : Lưu trạng thái hiện tại của code trong local lại, kèm "văn_bản" để mô tả phiên bản đó.
-![Sơ đồ khu vực hoạt động của Git](https://raw.githubusercontent.com/jethroconrad/git-workflow-diagram/master/git-workflow-diagram.png)
+<img src="3Areas.png" width="550" alt="Sơ đồ khu vực hoạt động của Git">
 ---
 
 ## 2. Nhóm lệnh kết nối máy tính ( local) với Github 
@@ -16,8 +16,8 @@
 
 ## 3. Nhóm xử lý xung đột 
 * **git merge <tên_nhánh>** : Hợp 1 nhánh khác vào nhánh hiện tại tạo ra "merge commit" để nối 2 nhánh lại, giữ nguyên lịch sử 2 nhánh 
-* **git rebase <tên_nhánh>** : Cũng hợp code giống lệnh merge nhưng thay vì tạo nhánh nối, nó sẽ đem các commit của nhánh hiện tại đặt nối tiếp vào sau đuôi commit của nhánh được gộp, làm lịch sử biến thành một đường thẳng duy nhất.(em chưa hiểu nì lắm)
-
+* **git rebase <tên_nhánh>** : Cũng hợp code giống lệnh merge nhưng thay vì tạo nhánh nối, nó sẽ đem các commit của nhánh hiện tại đặt nối tiếp vào sau đuôi commit của nhánh được gộp, làm lịch sử biến thành một đường thẳng duy nhất.
+<img src="MergeVsDebase.png" width="500" alt="Sơ đồ phân biệt Git Merge và Git Rebase">
 ---
 
 ## 4. Lệnh xem lại và quay lại
