@@ -17,7 +17,7 @@
 ## 3. Nhóm xử lý xung đột 
 * **git merge <tên_nhánh>** : Hợp 1 nhánh khác vào nhánh hiện tại tạo ra "merge commit" để nối 2 nhánh lại, giữ nguyên lịch sử 2 nhánh 
 * **git rebase <tên_nhánh>** : Cũng hợp code giống lệnh merge nhưng thay vì tạo nhánh nối, nó sẽ đem các commit của nhánh hiện tại đặt nối tiếp vào sau đuôi commit của nhánh được gộp, làm lịch sử biến thành một đường thẳng duy nhất.
-<img src="MergeVsDebase.png" width="500" alt="Sơ đồ phân biệt Git Merge và Git Rebase">
+<img src="frontend/assets/images/MergeVsDebase.png" width="500" alt="Sơ đồ phân biệt Git Merge và Git Rebase">
 ---
 
 ## 4. Lệnh xem lại và quay lại
